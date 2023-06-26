@@ -14,8 +14,33 @@
 
 <div class="pizza"> <h4> Nos pizzas </h4></div>
 <div class="logo"> <img src="../sitebouffe/images/pizza-icon-logo-design-template-download-pizza-icon-logo-desilogo.png" height="100%" width="100%" alt="cuisinier italien"> </div>
-<div class="connexion"> <a href="./inscription.php"> <h4> Se connecter</h4></a> </div>
-<div class="panier"> <h4> panier </h4></div>
+<div class="panier"> <h4> Panier</h4></a> </div>
+
+<!--   pour la déconnexion de ton utilisateur 
+vérifie si le bouton de déconnexion est cliqué en vérifiant si la variable $_POST['deco'] est définie. Si le bouton de déconnexion est cliqué, toutes les variables de session sont supprimées avec session_unset() et la session est détruite avec session_destroy().  -->
+
+ <!-- pour la déconnexion de l'utilisateur -->
+
+ <?php
+    // Vérifier si le bouton de déconnexion est cliqué
+    if (isset($_POST['deco'])) {
+        // Supprimer toutes les variables de session
+        session_unset();
+
+        // Détruire la session
+        session_destroy();
+
+        // Rediriger vers la page de connexion
+        header("Location: connexion.php");
+        exit();
+    }
+    ?>
+
+
+<div class="deconnexion"> 
+    <h4> <form method="post" action="">
+    <button type="submit" name="deco">Déconnexion</button>
+</form></h4></div>
 </div>
 <div class="barrenav2">  </div>
 <div class="burger">  <div class="c-header"></div>
@@ -233,7 +258,7 @@ img{
 
 }
 
-.connexion { grid-area: 1 / 4 / 2 / 5; 
+.panier { grid-area: 1 / 4 / 2 / 5; 
   
     justify-content: center;
     width: 20%;
@@ -242,13 +267,26 @@ img{
     display: flex;
 }
 
-.panier { grid-area: 1 / 5 / 2 / 6; 
+.deconnexion { grid-area: 1 / 5 / 2 / 6; 
    
     justify-content: center;
     width: 20%;
     height: 100%;
     align-items: center;
     display: flex;
+    
+    
+}
+.deconnexion a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.deconnexion button{
+    border: none;
+    background-color: green;
+    font-size: 20px;
 }
 
 .barrenav2{ grid-area: 2 / 1 / 3 / 6 ;
