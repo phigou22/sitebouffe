@@ -99,9 +99,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
 
     #nom > .div1{
         justify-content: center;
-        display: flex;
-       
-        
+        display: flex; 
     }
 
     h1{

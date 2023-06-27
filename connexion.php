@@ -10,7 +10,7 @@ include "header.php"
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/card2.css">
-    <title>card-2</title>
+    <title>connexion</title>
 </head>
 <style>
     
@@ -27,7 +27,6 @@ h2{
 }
 
 body{
-  
   background: linear-gradient(to right, green, white, red);
 
 }
@@ -100,7 +99,6 @@ body{
   border-radius: 25px;
   transition: .3s ease;
 }
-
 
 
 /* RESPONSIVE */

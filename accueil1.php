@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/card2.css">
-    <title>card-3</title>
+    <title>accueil</title>
 </head>
 <style>
     
@@ -157,7 +157,7 @@ height: 100px;
                 <img src="../sitebouffe/images/conqued'or.jpg" width="200px" height="200pw" alt="">
   </div>
   <h2>
- Maillot NBA</h2>
+ Nos pizzas</h2>
   <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora inventore esse suscipit aspernatur delectus earum commodi, porro quo sed ea placeat voluptatum voluptatibus velit aperiam eum nihil assumenda quibusdam! </p>
   <a href="#">Ajouter aux panier</a>
@@ -167,7 +167,7 @@ height: 100px;
                 <img src="../sitebouffe/images/photopers.png" width="200px" height="200pw" alt="">
   </div>
   <h2>
-    Maillot NBA</h2>
+   Notre personnel</h2>
   <p>
  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut tempora velit expedita inventore modi. Facere fugit atque ad molestias? Impedit architecto modi velit eaque blanditiis voluptates accusamus, repudiandae alias? lorem</p>
   <a href="#">Ajouter au panier</a>
@@ -177,7 +177,7 @@ height: 100px;
                 <img src="../sitebouffe/images/R.jpg" width="200px" height="200pw" alt="">
   </div>
   <h2>
-    Maillot NBA</h2>
+    Nos locaux</h2>
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ut tempora velit expedita inventore modi. Facere fugit atque ad molestias? Impedit architecto modi velit eaque blanditiis voluptates accusamus, repudiandae alias? lorem</p>
   <a href="#">Ajouer aux panier</a>
