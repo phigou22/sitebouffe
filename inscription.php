@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
     $prenom = $_POST['prenom'];
     $age = $_POST['age'];
     $adressemail = $_POST['adressemail'];
-    $motdepasse = $_POST['motdepasse'];
+    $motdepasse = password_hash($_POST['motdepasse'], PASSWORD_DEFAULT);
 
     // je vérifie les donnés inscri pour voir si tout est en accord
 
