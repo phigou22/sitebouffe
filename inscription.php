@@ -7,6 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
     $prenom = $_POST['prenom'];
     $age = $_POST['age'];
     $adressemail = $_POST['adressemail'];
+    $motdepasse = $_POST['motdepasse'];
 
     // je vérifie les donnés inscri pour voir si tout est en accord
 
@@ -28,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
 
     $sql = "INSERT INTO connexion (nom, prenom, age, adressemail) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssss", $nom, $prenom, $age, $adressemail);
+    $stmt->bind_param("ssss", $nom, $prenom, $age, $adressemail, $motdepasse);
     $stmt->execute();
 
     // je ferme la connexion
@@ -64,8 +65,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
         <label for="age">Âge :</label>
         <input type="int" name="age" id="age" required><br>
 
-        <label for="mot_de_passe">Adresse mail :</label>
+        <label for="mail">Adresse mail :</label>
         <input type="email" name="adressemail" id="adressemail" required><br>
+
+        <label for="mot_de_passe">Adresse mail :</label>
+        <input type="password" name="motdepasse" id="motdepasse" required><br>
 
         <input type="submit" name="inscription" value="Inscription">
     </form> </div>  </div>
