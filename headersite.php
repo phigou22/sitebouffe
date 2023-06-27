@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>header</title>
+    <title>headersite</title>
 </head>
 
 <body>
@@ -12,7 +12,7 @@
 <div class="barrenav1"> 
 <div class="accueil"><h4> Accueil </h4></div>
 
-<div class="pizza"> <h4> Nos pizzas </h4></div>
+<div class="pizza"> <a href="https://origanolapizza.com/galerie/"> <h4> Nos pizzas </h4></a></div>
 <div class="logo"> <img src="../sitebouffe/images/pizza-icon-logo-design-template-download-pizza-icon-logo-desilogo.png" height="100%" width="100%" alt="cuisinier italien"> </div>
 <div class="panier"> <h4> Panier</h4></a> </div>
 
@@ -303,6 +303,11 @@ img{
     display: flex;
     height: 100px;
     
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 </style>
