@@ -10,7 +10,9 @@
 
 <div class="parent">
 <div class="barrenav1"> 
-<div class="accueil"><h4> Accueil </h4></div>
+<div class="accueil"><h4> Accueil </h4>
+
+</div>
 
 <div class="pizza"> <a href="https://origanolapizza.com/galerie/"> <h4> Nos pizzas </h4></a></div>
 <div class="logo"> <img src="../sitebouffe/images/pizza-icon-logo-design-template-download-pizza-icon-logo-desilogo.png" height="100%" width="100%" alt="cuisinier italien"> </div>
