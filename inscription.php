@@ -27,9 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
 
     // ici je prépare la requéte pour pouvoir inserer mes données
 
-    $sql = "INSERT INTO connexion (nom, prenom, age, adressemail) VALUES (?, ?, ?, ?)";
+    $sql = "INSERT INTO connexion (nom, prenom, age, adressemail, motdepasse) VALUES (?, ?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
-    $stmt->bind_param("ssss", $nom, $prenom, $age, $adressemail, $motdepasse,);
+    $stmt->bind_param("sssss", $nom, $prenom, $age, $adressemail, $motdepasse);
     $stmt->execute();
 
     // je ferme la connexion
@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['inscription'])) {
 
     // icic apres avoir je redirige l'utilisateur vers la page connexion.php
     
-    header("Location: connexion.php");
+    header("Location: accueil1.php");
     exit();
 }
 
