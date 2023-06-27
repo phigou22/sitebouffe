@@ -15,7 +15,7 @@
 <div class="pizza"> <h4> Nos pizzas </h4></div>
 <div class="logo"> <img src="../sitebouffe/images/pizza-icon-logo-design-template-download-pizza-icon-logo-desilogo.png" height="100%" width="100%" alt="cuisinier italien"> </div>
 <div class="connexion">  <h4> Se connecter</h4></a> </div>
-<div class="inscription"> <a href="./inscription.php"> <h4> Inscription </h4></div>
+<div class="inscription"> <a href="./inscription.php"> <h4> Inscription </h4></a></div>
 </div>
 
 

@@ -167,7 +167,7 @@ input[type="checkbox"]:checked ~ .c-btn-icon > .c-btn-bar--diagonal.diagonal-2{
 .c-sidebar {
     position: absolute;
     width: 250px;
-    height: 100%;
+    height: 625px;
     left: 0px;
     margin-top: 625px;
     transform: translateX(-250px);

@@ -65,6 +65,8 @@ body{
   
   background: rgb(142, 4, 4);
 }
+
+
 .conteneur-1:hover a{
   
     background: rgb(47, 14, 232);
@@ -203,7 +205,6 @@ height: 100px;
 
 
 </body>
-</html>
 
 <?php include 'footer.php' ?>
 </html>
