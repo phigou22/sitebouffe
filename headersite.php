@@ -16,7 +16,7 @@
 
 <div class="pizza"> <a href="https://origanolapizza.com/galerie/"> <h4> Nos pizzas </h4></a></div>
 <div class="logo"> <img src="../sitebouffe/images/pizza-icon-logo-design-template-download-pizza-icon-logo-desilogo.png" height="100%" width="100%" alt="cuisinier italien"> </div>
-<div class="panier"> <h4> Panier</h4></a> </div>
+<div class="panier"> <a href="panier.php"> <h4> Panier</h4></a> </div>
 
 <!--   pour la déconnexion de ton utilisateur 
 vérifie si le bouton de déconnexion est cliqué en vérifiant si la variable $_POST['deco'] est définie. Si le bouton de déconnexion est cliqué, toutes les variables de session sont supprimées avec session_unset() et la session est détruite avec session_destroy().  -->
