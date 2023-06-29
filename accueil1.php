@@ -160,7 +160,7 @@ height: 100px;
  Nos pizzas</h2>
   <p>
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit tempora inventore esse suscipit aspernatur delectus earum commodi, porro quo sed ea placeat voluptatum voluptatibus velit aperiam eum nihil assumenda quibusdam! </p>
-  <a href="#">Ajouter aux panier</a>
+  <a href="ajouter_au_panier.php">Ajouter aux panier</a>
           </div>
   <div class="conteneur conteneur-2">
             <div class="produits2">

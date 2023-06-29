@@ -4,7 +4,7 @@ error_reporting(E_ALL);
 
 session_start();
 
-if (isset($_POST['submit'])) { 
+if (isset($_POST['submit']))  {
 
     ////////////////////////////////////////////////////////////////////////////////////
 
